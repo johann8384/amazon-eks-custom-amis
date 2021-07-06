@@ -75,7 +75,7 @@ cat > /etc/docker/daemon.json <<EOF
   "max-concurrent-downloads": 10,
   "experimental": false,
   "insecure-registries": [],
-  "no-new-privileges": true
+  "no-new-privileges": false
 }
 EOF
 

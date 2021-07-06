@@ -88,13 +88,13 @@ cat > /etc/docker/daemon.json <<EOF
   "default-ulimits": {
     "nofile": {
       "Name": "nofile",
-      "Hard": 200,
-      "Soft": 100
+      "Hard": 128000,
+      "Soft": 128000
     },
     "nofile": {
       "Name": "nproc",
-      "Hard": 2048,
-      "Soft": 1024
+      "Hard": 128000,
+      "Soft": 128000
     }
   },
   "live-restore": true,
